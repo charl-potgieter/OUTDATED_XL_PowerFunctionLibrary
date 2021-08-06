@@ -2,7 +2,7 @@
       Formula Name:   AppendTwoColumns
       Category:       Joins and data shapes
       Autohor:        Charl Potgieter
-      Comment:        Appends 2 columns, one below the other
+      Description:        Appends 2 columns, one below the other
 ------------------------------------------------------------------------------------------------------------------/*
 =LAMBDA(range1,range2,
   LET(
@@ -21,7 +21,7 @@
       Formula Name:   StackArray
       Category:       Joins and data shapes
       Autohor:        Charl Potgieter
-      Comment:        Converts an x by y element array into a single column by stackign all the columns on top of each other
+      Description:        Converts an x by y element array into a single column by stackign all the columns on top of each other
 ------------------------------------------------------------------------------------------------------------------/*
 =LAMBDA(ArrayToStack,
      LET(
@@ -43,7 +43,7 @@
       Formula Name:   SplitText
       Category:       Text
       Autohor:        ExcelJet
-      Comment:        https://exceljet.net/formula/lambda-split-text-to-array
+      Description:        https://exceljet.net/formula/lambda-split-text-to-array
 ------------------------------------------------------------------------------------------------------------------/*
 =LAMBDA(text,delim,
       TRANSPOSE(
@@ -59,7 +59,7 @@
       Formula Name:   MonthEndsBetweenDates
       Category:       Date and time
       Autohor:        Charl Potgieter
-      Comment:        Returns an array of month ends between start and end dates
+      Description:        Returns an array of month ends between start and end dates
 ------------------------------------------------------------------------------------------------------------------/*
 =LAMBDA(DateStart,DateEnd,
       LET(

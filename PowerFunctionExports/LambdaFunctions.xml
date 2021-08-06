@@ -15,7 +15,8 @@
 )</RefersTo>
 		<Category>Joins and data shapes</Category>
 		<Author>Charl Potgieter</Author>
-		<Comment>Appends 2 columns, one below the other</Comment>
+		<Description>Appends 2 columns, one below the other</Description>
+		<ParameterDescription>range1|First range to append|range2|Second range to append</ParameterDescription>
 	</Record>
 	<Record>
 		<Name>StackArray</Name>
@@ -35,7 +36,8 @@
 )</RefersTo>
 		<Category>Joins and data shapes</Category>
 		<Author>Charl Potgieter</Author>
-		<Comment>Converts an x by y element array into a single column by stackign all the columns on top of each other</Comment>
+		<Description>Converts an x by y element array into a single column by stackign all the columns on top of each other</Description>
+		<ParameterDescription>ArrayToStack|Array or selection of cells to be stacked</ParameterDescription>
 	</Record>
 	<Record>
 		<Name>SplitText</Name>
@@ -49,7 +51,8 @@
 )</RefersTo>
 		<Category>Text</Category>
 		<Author>ExcelJet</Author>
-		<Comment>https://exceljet.net/formula/lambda-split-text-to-array</Comment>
+		<Description>https://exceljet.net/formula/lambda-split-text-to-array</Description>
+		<ParameterDescription>text|Text to be delimited|delim|Characted delimiter</ParameterDescription>
 	</Record>
 	<Record>
 		<Name>MonthEndsBetweenDates</Name>
@@ -62,6 +65,7 @@
 )</RefersTo>
 		<Category>Date and time</Category>
 		<Author>Charl Potgieter</Author>
-		<Comment>Returns an array of month ends between start and end dates</Comment>
+		<Description>Returns an array of month ends between start and end dates</Description>
+		<ParameterDescription>DateStart|First of month sequence|DateEnd|Last month of sequence</ParameterDescription>
 	</Record>
 </LambdaDocument>
